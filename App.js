@@ -34,13 +34,13 @@ function firstElement(i) {
     cardReview[1].classList.remove('cardActive');
     cardReview[1].querySelector('.review_p').style.opacity = '0';
     cardReview[i].querySelector('.review_p').style.opacity = '';
-    up.src='/img/up.svg';
-    down.src = '/img/downActive.svg';
+    up.src='./img/up.svg';
+    down.src = './img/downActive.svg';
 }
 
 function secondElement(i) {
-    up.src='/img/upActive.svg';
-    down.src = '/img/down.svg';
+    up.src='./img/upActive.svg';
+    down.src = './img/down.svg';
     cardReview[0].classList.remove('cardActive');
     cardReview[0].querySelector('.review_p').style.opacity = '0';
     cardReview[i].classList.add('cardActive');
