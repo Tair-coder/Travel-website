@@ -719,6 +719,10 @@ header{
     align-items: center;
     margin: 96px auto;
 }
+.parther_img {
+transition:all 0.7s;
+
+}
 .parther_img:hover{
     border-radius: 10px;
     box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0.0048),
